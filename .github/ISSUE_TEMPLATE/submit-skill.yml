@@ -1,0 +1,56 @@
+name: 提交一个 Skill
+description: 推荐一个适合普通用户的 Agent Skill
+title: "[Skill 投稿] "
+labels:
+  - submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请确认这是包含 `SKILL.md` 或等价结构的 Agent Skill，而不是单独的 App、MCP 服务、插件或提示词。
+
+  - type: input
+    id: name
+    attributes:
+      label: Skill 名称
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: 原始仓库地址
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+
+  - type: input
+    id: skill_url
+    attributes:
+      label: SKILL.md 精确地址
+      placeholder: https://github.com/owner/repository/blob/main/path/SKILL.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 它能帮普通用户完成什么
+      description: 请描述结果和一个具体使用场景，不要只写技术实现。
+    validations:
+      required: true
+
+  - type: textarea
+    id: install
+    attributes:
+      label: 安装、账号、费用与权限
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 确认
+      options:
+        - label: 我确认来源地址可访问，并已披露主要费用和权限要求
+          required: true

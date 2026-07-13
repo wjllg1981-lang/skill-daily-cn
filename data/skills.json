@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-13",
+  "skills": [
+    {
+      "id": "design-guide-8f482686f2",
+      "canonical_key": "https://github.com/getpaperclipai/paperclip#design-guide",
+      "name": "design-guide",
+      "repository": "https://github.com/getpaperclipai/paperclip",
+      "skill_path": "design-guide",
+      "source_url": "https://github.com/getpaperclipai/paperclip/blob/master/.claude/skills/design-guide/SKILL.md",
+      "skills_sh_url": "https://www.skills.sh/getpaperclipai/paperclip/design-guide",
+      "tagline": "设计风格指南",
+      "description": "给 Agent 提供统一设计风格参考。偏内容创作者。",
+      "ecosystem": "agent",
+      "rank": 2,
+      "heat_score": 63.34,
+      "fit": 60,
+      "action": "test",
+      "validation": "install_valid",
+      "trend_reason": "skills.sh 近 24 小时安装量 10.3K",
+      "risk_notice": "未发现已披露的特殊权限；安装前仍应阅读原始说明",
+      "published_at": "2026-07-13",
+      "first_published_at": "2026-07-13",
+      "last_published_at": "2026-07-13",
+      "install_summary": null
+    },
+    {
+      "id": "find-skills-8869201fe3",
+      "canonical_key": "https://github.com/vercel-labs/skills#find-skills",
+      "name": "find-skills",
+      "repository": "https://github.com/vercel-labs/skills",
+      "skill_path": "find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md",
+      "skills_sh_url": "https://www.skills.sh/vercel-labs/skills/find-skills",
+      "tagline": "找技能的工具",
+      "description": "帮你在 Agent 里搜索可用 Skill。间接工具。",
+      "ecosystem": "agent",
+      "rank": 1,
+      "heat_score": 79.01,
+      "fit": 75,
+      "action": "test",
+      "validation": "install_valid",
+      "trend_reason": "skills.sh 近 24 小时安装量 15.3K",
+      "risk_notice": "未发现已披露的特殊权限；安装前仍应阅读原始说明",
+      "published_at": "2026-07-13",
+      "first_published_at": "2026-07-13",
+      "last_published_at": "2026-07-13",
+      "install_summary": null
+    }
+  ]
+}

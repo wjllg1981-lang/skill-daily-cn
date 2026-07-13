@@ -9,25 +9,25 @@
 
 > 面向普通用户的每日精选。排名依据与收录边界见 [RULES.md](RULES.md)。
 
-### 1. [find-skills](https://github.com/vercel-labs/skills) — 找技能的工具
+### 1. [find-skills](https://github.com/vercel-labs/skills) — 按需求找 Skill
 
-帮你在 Agent 里搜索可用 Skill。间接工具。
+当你想给 Agent 增加新能力时，它会理解需求、搜索开放 Skill 生态并给出候选与安装命令；使用时需要本地运行 npx skills。
 
 - 今日信号：skills.sh 近 24 小时安装量 15.3K
 - 普通用户适配：75/100 · 值得试用
-- 权限与费用：未发现已披露的特殊权限；安装前仍应阅读原始说明
+- 权限与费用：原始介绍未明确披露费用与权限，安装前需查看完整说明
 - [查看原始 Skill](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md)
 
-### 2. [design-guide](https://github.com/getpaperclipai/paperclip) — 设计风格指南
+### 2. [design-guide](https://github.com/getpaperclipai/paperclip) — 统一前端设计
 
-给 Agent 提供统一设计风格参考。偏内容创作者。
+为 Paperclip 前端开发统一组件、颜色、排版、状态和布局规范，适合新增或修改界面时调用；必须与 frontend-design、web-design-guidelines 配合使用。
 
 - 今日信号：skills.sh 近 24 小时安装量 10.3K
 - 普通用户适配：60/100 · 值得试用
-- 权限与费用：未发现已披露的特殊权限；安装前仍应阅读原始说明
+- 权限与费用：原始介绍未明确披露费用与权限，安装前需查看完整说明
 - [查看原始 Skill](https://github.com/getpaperclipai/paperclip/blob/master/.claude/skills/design-guide/SKILL.md)
 
-[查看 2026 年 7 月 13 日 完整归档](pages/daily/2026-07-13.md)
+[查看 2026 年 7 月 13 日完整归档](pages/daily/2026-07-13.md)
 <!-- DAILY_END -->
 
 ## 如何使用
